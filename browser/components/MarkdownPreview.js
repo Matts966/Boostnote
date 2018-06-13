@@ -125,6 +125,9 @@ body p {
   .clipboardButton {
     display: none
   }
+  body {
+    ${scrollPastEnd && 'padding-bottom: 0'}
+  }
 }
 `
 }
