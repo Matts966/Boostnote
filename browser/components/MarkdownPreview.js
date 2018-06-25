@@ -125,9 +125,6 @@ body p {
   .clipboardButton {
     display: none
   }
-  pre.CodeMirror>code {
-    white-space: pre-wrap;
-  }
   body {
     ${scrollPastEnd && 'padding-bottom: 0'}
   }
